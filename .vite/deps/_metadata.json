@@ -2,7 +2,54 @@
   "hash": "56df2b8c",
   "configHash": "ebcacd18",
   "lockfileHash": "0f0feff9",
-  "browserHash": "0d2b52f9",
-  "optimized": {},
-  "chunks": {}
+  "browserHash": "e523aa1b",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "9c60b96b",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "4320b7c7",
+      "needsInterop": true
+    },
+    "react-map-gl": {
+      "src": "../../node_modules/react-map-gl/dist/esm/index.js",
+      "file": "react-map-gl.js",
+      "fileHash": "bf48e6f0",
+      "needsInterop": false
+    },
+    "@deck.gl/react": {
+      "src": "../../node_modules/@deck.gl/react/dist/index.js",
+      "file": "@deck__gl_react.js",
+      "fileHash": "ba3571e5",
+      "needsInterop": false
+    },
+    "@deck.gl/mesh-layers": {
+      "src": "../../node_modules/@deck.gl/mesh-layers/dist/index.js",
+      "file": "@deck__gl_mesh-layers.js",
+      "fileHash": "ac54e98a",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-OAZAAUMI": {
+      "file": "chunk-OAZAAUMI.js"
+    },
+    "chunk-6GAV2S6I": {
+      "file": "chunk-6GAV2S6I.js"
+    },
+    "chunk-UUN2JTKM": {
+      "file": "chunk-UUN2JTKM.js"
+    },
+    "mapbox-gl-JIUFJIQR": {
+      "file": "mapbox-gl-JIUFJIQR.js"
+    },
+    "chunk-DC5AMYBS": {
+      "file": "chunk-DC5AMYBS.js"
+    }
+  }
 }

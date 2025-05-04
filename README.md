@@ -1,12 +1,39 @@
-# React + Vite
+# ✈️ 3D Global Flight Tracker with Deck.gl + Mapbox
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project shows how to create a real-time animated 3D flight simulation using:
 
-Currently, two official plugins are available:
+- 🌍 **Mapbox** (via react-map-gl)
+- 🛫 **Deck.gl ScenegraphLayer**
+- 🔁 Dummy data for 300+ global flights
+- 🧭 Heading-based movement with speed & altitude
+- 📦 Built with React + Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![demo screenshot](https://user-images.githubusercontent.com/your/demo.png)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- 3D airplane model rendered with `ScenegraphLayer`
+- 300+ flights flying randomly around the world
+- Smooth animation with real-time heading and velocity
+- Tooltip shows callsign, country, speed & altitude
+
+---
+
+## 📦 Tech Stack
+
+- [React](https://reactjs.org/)
+- [Deck.gl](https://deck.gl/)
+- [Mapbox](https://www.mapbox.com/)
+- [react-map-gl](https://visgl.github.io/react-map-gl/)
+
+---
+
+## 🛠️ Setup
+
+```bash
+git clone https://github.com/your-username/react-mapbox-flight-tracker.git
+cd flight-tracker
+npm install
+npm run dev

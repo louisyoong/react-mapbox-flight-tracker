@@ -24,6 +24,7 @@ This project shows how to create a real-time animated 3D flight simulation using
 ## 📦 Tech Stack
 
 - [React](https://reactjs.org/)
+- [Vite](https://vite.dev/)
 - [Deck.gl](https://deck.gl/)
 - [Mapbox](https://www.mapbox.com/)
 - [react-map-gl](https://visgl.github.io/react-map-gl/)
@@ -34,6 +35,6 @@ This project shows how to create a real-time animated 3D flight simulation using
 
 ```bash
 git clone https://github.com/your-username/react-mapbox-flight-tracker.git
-cd flight-tracker
+cd react-mapbox-flight-tracker
 npm install
 npm run dev

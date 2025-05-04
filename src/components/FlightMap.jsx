@@ -94,7 +94,7 @@ Altitude: ${Math.round(object.position[2])} m`
       <Map
         reuseMaps
         mapStyle="mapbox://styles/mapbox/dark-v11"
-        mapboxAccessToken="pk.eyJ1IjoibG91aXN5b29uZyIsImEiOiJjbHJ1MTdzNGwwNXU4MmlvM2x4d2gzd2dnIn0.Kuz52xD-JDk8XzFlmYPLfw"
+        mapboxAccessToken="" // add your mapbox token
       />
     </DeckGL>
   );

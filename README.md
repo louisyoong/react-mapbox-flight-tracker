@@ -8,7 +8,7 @@ This project shows how to create a real-time animated 3D flight simulation using
 - 🧭 Heading-based movement with speed & altitude
 - 📦 Built with React + Vite
 
-![demo screenshot](https://user-images.githubusercontent.com/your/demo.png)
+![demo screenshot](https://github.com/louisyoong/react-mapbox-flight-tracker/blob/master/src/assets/screenshoot.png)
 
 ---
 

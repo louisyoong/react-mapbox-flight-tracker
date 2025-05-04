@@ -38,3 +38,22 @@ git clone https://github.com/your-username/react-mapbox-flight-tracker.git
 cd react-mapbox-flight-tracker
 npm install
 npm run dev
+
+---
+🔑 Mapbox Token Required
+This project uses Mapbox for the base map. You need your own Mapbox access token to run it.
+
+Step-by-Step to get a token:
+Go to https://account.mapbox.com/
+
+Log in or sign up
+
+Copy your Default public token from the Access Tokens section
+
+Create .env file in the project root:
+env
+Copy
+Edit
+# .env
+VITE_MAPBOX_TOKEN=your_mapbox_token_here
+
